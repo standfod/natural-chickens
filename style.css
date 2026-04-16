@@ -293,7 +293,7 @@ body{
 
 input::placeholder{
     color: white;
-
+    background-color: red;
 }
 
 .input1:hover{
