@@ -41,7 +41,7 @@ body{
  }
 
  .span{
-    border: solid 1px white;
+    border: solid 1px black;
     width: 30px;
 
  }
@@ -54,6 +54,8 @@ body{
     gap: 3px;
     width: 50px;
     height: 40px;
+    position: relative;
+   z-index: 99px;
  }
 
  .button1{
@@ -320,7 +322,7 @@ input::placeholder{
 
  }
 
- ul{
+ .ul1{
    position: relative;
    right: 120px;
    color: white;
@@ -364,5 +366,44 @@ input::placeholder{
    top: 430px;
    left: 40px;
    
+}
+
+/** from here is menu functizonality **/
+
+.section{
+   
+}
+
+.menu{
+   position: absolute;
+   border: solid 1px black;
+   top: 0px;
+   right: -200px;
+   background-color:white;
+   height: 300px;
+   border-radius: 10px;
+   width: 200px;
+   color: white;
+   z-index: 1px;
+   transition: right 0.9s;
+
+}
+
+.ul2{
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   margin-top: 50px;
+   margin-left: 30px;
+   padding-left: 30px;
+   list-style: none;
+   color: black;
+}
+.display{
+   position: absolute;
+   left: 170px;
+   color: black;
+   font-size: 40px;
+
 
 }
