@@ -23,17 +23,17 @@ if(menu.style.right === "-200px"){
 
 
  display.addEventListener("click" ,function(){
-    if(menu.style.right === "0px"){
+    if(menu.style.right === "-200px"){
       
-        menu.style.left = "-200px"
-        display.style.right =  "-200px"
-        spans.style.right = "0px"
+        menu.style.left = "0px"
+        display.style.right =  "0px"
+        spans.style.right = "-200px"
         menu.style.transition =  "right 0.3s ease"
 
     }
       else{
-        menu.style.right = "0px"
-        display.style.display = "0px"
+        menu.style.right = "-200px"
+        display.style.display = "-200px"
         spans.style.right= "0px"
       }
  })
